@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.nojs {
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nojs__block {
+    margin: auto;
+}
+
+.nojs__block span {
+    font-weight: bold;
+    text-decoration: underline;
+}
